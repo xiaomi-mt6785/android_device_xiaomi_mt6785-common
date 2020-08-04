@@ -1,0 +1,2 @@
+allow priv_app displayfeature_hwservice:hwservice_manager find;
+allow priv_app hal_displayfeature_xiaomi_default:binder call;

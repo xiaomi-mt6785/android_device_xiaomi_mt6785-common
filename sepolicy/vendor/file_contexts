@@ -1,2 +1,20 @@
-# Light
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.begonia      u:object_r:hal_light_default_exec:s0
+# Devices Labels
+/dev/xiaomi-touch               u:object_r:touchfeature_device:s0
+
+# HALs
+/vendor/bin/fidoca                                                        u:object_r:hal_mfidoca_default_exec:s0
+/vendor/bin/mlipayd                                                       u:object_r:hal_mlipay_default_exec:s0
+/vendor/bin/mlipayd@1\.1                                                  u:object_r:hal_mlipay_default_exec:s0
+/vendor/bin/mtd                                                           u:object_r:hal_mtdservice_default_exec:s0
+/vendor/bin/mtd@1\.1                                                      u:object_r:hal_mtdservice_default_exec:s0
+/vendor/bin/mtd@1\.2                                                      u:object_r:hal_mtdservice_default_exec:s0
+/vendor/bin/tidad                                                         u:object_r:hal_tidaservice_default_exec:s0
+/vendor/bin/tidad@1\.1                                                    u:object_r:hal_tidaservice_default_exec:s0
+/vendor/bin/vsimd                                                         u:object_r:hal_vsimapp_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.begonia             u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service    u:object_r:hal_citsensorservice_xiaomi_default_exec:s0
+/vendor/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service      u:object_r:hal_displayfeature_xiaomi_default_exec:s0
+/vendor/bin/hw/vendor\.xiaomi\.hardware\.touchfeature@1\.0-service        u:object_r:hal_touchfeature_xiaomi_default_exec:s0
+
+# Sys Files
+/sys/devices/platform/mtkfb(/.*)?                                         u:object_r:sysfs_mtkfb:s0

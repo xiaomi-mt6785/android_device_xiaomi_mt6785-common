@@ -1,0 +1,8 @@
+type citsensorservice_hwservice, hwservice_manager_type;
+type displayfeature_hwservice, hwservice_manager_type;
+type fidoservice_hwservice, hwservice_manager_type;
+type hal_mlipay_hwservice, hwservice_manager_type;
+type mtservice_hwservice, hwservice_manager_type;
+type tidaservice_hwservice, hwservice_manager_type;
+type touchfeature_hwservice, hwservice_manager_type;
+type vsimservice_hwservice, hwservice_manager_type;

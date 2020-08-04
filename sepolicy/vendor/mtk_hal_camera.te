@@ -1,1 +1,2 @@
 allow mtk_hal_camera mtk_hal_pq_hwservice:hwservice_manager find;
+get_prop(mtk_hal_camera, persist_displayfeature_prop)

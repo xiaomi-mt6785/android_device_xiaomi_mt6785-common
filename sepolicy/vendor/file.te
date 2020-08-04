@@ -1,2 +1,5 @@
+type firmware_file, file_type, contextmount_type, vendor_file_type;
 type sysfs_light, fs_type, sysfs_type, mlstrustedobject;
 type sysfs_graphics, sysfs_type, fs_type, mlstrustedobject;
+type sysfs_mtkfb, sysfs_type, fs_type;
+type touchfeature_device, file_type;

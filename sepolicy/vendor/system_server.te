@@ -1,0 +1,1 @@
+allow system_server hal_displayfeature_xiaomi_default:binder { call transfer };
