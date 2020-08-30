@@ -1,5 +1,8 @@
-# Devices Labels
-/dev/xiaomi-touch               u:object_r:touchfeature_device:s0
+# Data Labels
+/data/gf_data(/.*)?                                                       u:object_r:fp_data_file:s0
+
+/dev/xiaomi-touch                                                         u:object_r:touchfeature_device:s0
+/dev/goodix_fp                                                            u:object_r:fp_device:s0
 
 # HALs
 /vendor/bin/fidoca                                                        u:object_r:hal_mfidoca_default_exec:s0
@@ -12,6 +15,7 @@
 /vendor/bin/tidad@1\.1                                                    u:object_r:hal_tidaservice_default_exec:s0
 /vendor/bin/vsimd                                                         u:object_r:hal_vsimapp_default_exec:s0
 /vendor/bin/hw/android\.hardware\.light@2\.0-service\.begonia             u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service    u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service    u:object_r:hal_citsensorservice_xiaomi_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service      u:object_r:hal_displayfeature_xiaomi_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.touchfeature@1\.0-service        u:object_r:hal_touchfeature_xiaomi_default_exec:s0
