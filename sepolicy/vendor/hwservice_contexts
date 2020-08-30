@@ -18,3 +18,4 @@ vendor.xiaomi.hardware.mtdservice::IMTService                                 u:
 vendor.xiaomi.hardware.tidaservice::ITidaService                              u:object_r:tidaservice_hwservice:s0
 vendor.xiaomi.hardware.touchfeature::ITouchFeature                            u:object_r:touchfeature_hwservice:s0
 vendor.xiaomi.hardware.vsimapp::IVSIMService                                  u:object_r:vsimservice_hwservice:s0
+vendor.microtrust.hardware.soter::ISoter                                      u:object_r:soter_hwservice:s0

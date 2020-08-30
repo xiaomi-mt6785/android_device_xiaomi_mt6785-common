@@ -9,4 +9,5 @@ allow init {
     hal_tidaservice_default_exec
     hal_touchfeature_xiaomi_default_exec
     hal_vsimapp_default_exec
+    hal_wechat_exec
 }:file execute;
