@@ -11,3 +11,8 @@ allow init {
     hal_vsimapp_default_exec
     hal_wechat_exec
 }:file execute;
+
+allow init vendor_file:file { execute };
+allow init sysfs_mmcblk:file setattr;
+allow init netutils_wrapper_exec:file { execute r_file_perms };
+allow init init:rawip_socket { create getopt };
