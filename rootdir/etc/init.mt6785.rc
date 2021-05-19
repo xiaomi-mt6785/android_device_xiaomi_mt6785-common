@@ -708,6 +708,8 @@ on post-fs-data
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360_ldo.5-0064/reg_addr
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360-4e/reg_addr
 
+    rm /data/logcat.txt
+
 # End of adding by MTK drivers
 # -----------------------
 
@@ -1106,3 +1108,8 @@ on property:persist.sys.begonia.dt2w=1
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
+
+service logcat_debug /system/bin/logcat -b all -f /data/logcat.txt -v threadtime
+    class main
+    user root
+    group system
